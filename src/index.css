@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-gradient {
+    fill: url(#red-gradient);
+    background: linear-gradient(90deg, #FF5353, #E91E1E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mask-image: url(#red-gradient);
+    -webkit-mask-image: url(#red-gradient);
+  }
+  
